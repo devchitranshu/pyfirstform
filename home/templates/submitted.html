@@ -1,0 +1,13 @@
+<!-- templates/home.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+
+    Title : <strong>{{request.title}}</strong>
+      <br>
+    Text : <strong>{{request.text}}</strong>
+      <br>
+    File : <strong>{{csv}}</strong>
+    <br>
+    File : <strong>{{file_data}}</strong>
+{% endblock %}
